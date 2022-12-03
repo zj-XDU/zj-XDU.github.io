@@ -1,0 +1,20 @@
+/* 常规浅色模式下的网页背景颜色及文本颜色 */
+
+body {
+ /*网页背景颜色*/
+ background: #fff;
+ /* 字体背景颜色 */
+ color: #222;
+}
+
+/* 深色模式下的网页背景颜色及文本颜色 */
+@media (prefers-color-scheme: dark) {
+ body {
+ /*网页背景颜色*/
+ background-color: #222;
+ /* 字体背景颜色 */
+ color: #ddd;
+
+ }
+
+}
